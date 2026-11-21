@@ -1,74 +1,21 @@
-HealthOS
+# HealthOS — personal health data platform (concept)
 
-HealthOS is an AI-powered personal health operating system designed to centralize all health-related information in a single, extensible platform.
+**Status: documentation-only concept.** The current `main` branch contains this README but no application source code, build configuration, database schema or tests. Listed functionality is a roadmap, **not** an available product.
 
-Unlike traditional calorie trackers, HealthOS is built around structured data and automation, making it suitable for long-term health management.
+## Objective
+Plan a privacy-focused health data platform covering personal weight history, nutrition, physical activity, trends and AI-assisted data entry. No data integration or medical decision-support feature has been implemented here.
 
-Features
+## Proposed roadmap (not implemented)
+1. Weight, food and activity diary, summaries and charts.
+2. Nutrition reference data, recipes and food catalog.
+3. Optional health measurements, laboratory values, medication and sleep.
+4. AI-assisted capture and summaries subject to data validation.
+5. Optional device and health-platform integrations.
 
-* ⚖️ Weight tracking
-* 🍽 Food diary with calories and macronutrients
-* 🚶 Activity tracking
-* 📊 Interactive dashboards
-* 📈 Progress analytics
-* 🤖 AI-assisted data entry
-* 📄 Automatic reports
-* ☁ Google Sheets backend (initial version)
+## Technology ideas — not committed dependencies
+Earlier plans considered Python, TypeScript and Google Sheets, but the repository has **no dependency manifest**. The architecture and storage should be selected only when implementing a bounded MVP.
 
-Roadmap
+## Local setup
+No installation or run command exists. The first implementation milestone should define a minimal data model, privacy protections, one local end-to-end use case and tests.
 
-v1 – Weight Tracker
-
-* Weight history
-* Food diary
-* Activity tracking
-* Dashboards
-* Statistics
-
-v2 – Nutrition
-
-* Recipes
-* Favorite meals
-* Barcode support
-* Food database
-
-v3 – Health
-
-* Blood pressure
-* Laboratory results
-* Medications
-* Supplements
-* Sleep tracking
-
-v4 – AI Assistant
-
-* Natural language logging
-* Meal recognition
-* Progress analysis
-* Personalized recommendations
-
-v5 – Integrations
-
-* Smart scales
-* Garmin
-* Apple Health
-* Google Fit
-* Wearables
-
-Design Principles
-
-* AI-first
-* Human-friendly
-* Structured data
-* Open architecture
-* Extensible
-* Privacy-focused
-* Local-first data ownership
-
-Technology
-
-* Google Sheets (initial backend)
-* Python
-* TypeScript
-* AI Assistants
-* GitHub Actions
+This repository is not a deployed service and does not hold health records.
